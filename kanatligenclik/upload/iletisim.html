@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>letişim - KG</title>
+	<link rel="icon" type="resimler/icon" href="css/resimler/kanatligenclik.ico.ico">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+</head>
+<body background="css/resimler/arkaplan.png"></body>
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="index.html" class="logo"><img src="css/resimler/kanatligenclik.png" alt="" width="40" height="80"></a>
+				<ul id="anamenu">
+					<li class="menu">
+						<a href="index.html" target="_blank">Anasayfa</a>
+					</li>
+					<li class="menu">
+						<a href="hakkimizda.html" target="_blank">Hakkımızda</a>
+					</li>
+					<li class="menu">
+						<a href="yazilar.html" target="_blank">Yazılar</a>
+					</li>
+					<li class="menu">
+						<a href="gorseller.html" target="_blank">Görseller</a>
+					</li>
+					<li class="selected">
+						<a href="iletisim.html">İletişim</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body">
+			<div class="header">
+				<div class="contact">
+					<h1>İletişim</h1>
+					<h2>Bizimle İletişim Kur</h2>
+					<form action="index.html">
+						<input type="text" name="İsim" value="İsim" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="text" name="Email" value="Email" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="text" name="Konu" value="Konu" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<textarea name="İleti" cols="50" rows="7">İleti</textarea>
+						<input type="submit" value="Gönder" id="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="connect">
+			</div>
+			<div class="footnote">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
